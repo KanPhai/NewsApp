@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="widely_used_as_standard_dummy_text">Widely Used as Standard Dummy Text</string>
+    <string name="industry_standard_dummy_text_continues_to_shape_printing_and_typesetting">Industry Standard: Dummy Text Continues to Shape Printing and Typesetting</string>
+    <string name="get_start">Get Start</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_back_you_ve_been_missed">Welcome back you’ve been missed</string>
+    <string name="username">Username*</string>
+    <string name="password">Password*</string>
+    <string name="forgot_the_password">Forgot the password ?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="don_t_have_an_account">don’t have an account ?</string>
+    <string name="sign_up">Sign up</string>
+</resources>
