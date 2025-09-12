@@ -5,12 +5,18 @@
     <string name="get_start">Get Start</string>
     <string name="welcome">Welcome</string>
     <string name="welcome_back_you_ve_been_missed">Welcome back you’ve been missed</string>
-    <string name="username">Username*</string>
+    <string name="username">Email Username*</string>
     <string name="password">Password*</string>
     <string name="forgot_the_password">Forgot the password ?</string>
     <string name="remember_me">Remember me</string>
     <string name="login">Login</string>
     <string name="or_continue_with">or continue with</string>
-    <string name="don_t_have_an_account">don’t have an account ?</string>
     <string name="sign_up">Sign up</string>
+    <string name="signup_to_get_started">Signup to get Started</string>
+    <string name="confirm_password">Confirm Password*</string>
+    <string name="signup">Signup</string>
+    <string name="log_in">Log in</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="do_not_have_an_account">Do not have an account?</string>
+
 </resources>

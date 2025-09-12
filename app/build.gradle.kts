@@ -1,6 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -17,6 +18,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+
     buildFeatures {
         viewBinding = true
     }
@@ -30,23 +32,34 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
     kotlinOptions {
         jvmTarget = "11"
     }
 }
 
 dependencies {
-    implementation (libs.material)
+    // AndroidX & UI
+    implementation(libs.firebase.auth.v2300)
+    implementation(libs.androidx.appcompat.v170)
     implementation(libs.androidx.core.splashscreen)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
+    implementation(libs.material.v1120)
+    implementation(libs.androidx.activity.ktx)
+    implementation(libs.androidx.constraintlayout.v214)
+
+
+    implementation(platform(libs.firebase.bom.v3272))
+
+
+    implementation(libs.com.google.firebase.firebase.auth.ktx2)
+
+
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.junit.v115)
     androidTestImplementation(libs.androidx.espresso.core)
 }
